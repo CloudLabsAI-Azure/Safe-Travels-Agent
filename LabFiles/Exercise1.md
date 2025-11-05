@@ -61,22 +61,21 @@ In this task, you will set up the Power Platform environment that will support y
 In this task, you will create your first AI agent using the pre-built Safe Travels template, which provides a solid foundation with built-in travel assistance capabilities.
 
 1. Once signed in to Copilot Studio, you'll see the main dashboard. From the left navigation pane, select **Create** to start building a new agent.
-
-   ![Copilot Studio Dashboard](../media/ex1-travel-g7.png)
-
 1. In the agent creation interface, you'll see different template options. Locate and click on the **Safe Travels** template to select it.
 
-   ![Safe Travels Template Selection](../media/ex1-travel-g8.png)
-
-   > **Template Benefits:** The Safe Travels template includes pre-configured conversational flows, travel-related knowledge sources, and common travel assistance scenarios, significantly reducing development time.
-
+    ![Copilot Studio Dashboard](../media/ex1-travel-g7.png)
+   
+1. Configure your Safe Travels agent with the following details:
+   - **Name:** `Safe Travels Agent`
+   - **Description:** `A travel assistant agent that helps employees with travel planning, policies, and guidance`
+  
+      ![Safe Travels Template Selection](../media/ex1-travel-g8.png)
+  
 1. Review the template details and click **Use this template** to proceed with the Safe Travels template.
 
    ![Use Template](../media/ex1-travel-g9.png)
 
-1. Configure your Safe Travels agent with the following details:
-   - **Name:** `Safe Travels Agent`
-   - **Description:** `A travel assistant agent that helps employees with travel planning, policies, and guidance`
+   > **Template Benefits:** The Safe Travels template includes pre-configured conversational flows, travel-related knowledge sources, and common travel assistance scenarios, significantly reducing development time.
 
    ![Agent Configuration](../media/ex1-travel-g10.png)
 
