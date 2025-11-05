@@ -4,21 +4,22 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Copilot-Studio-Lab1/refs/heads/main/LabFiles/getting-started.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Safe-Travels-Agent/blob/main/LabFiles/overview.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Copilot-Studio-Lab1/refs/heads/main/LabFiles/exercise1.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Safe-Travels-Agent/refs/heads/main/LabFiles/getting-started.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Copilot-Studio-Lab1/refs/heads/main/LabFiles/exercise2.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Safe-Travels-Agent/blob/main/LabFiles/Exercise1.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Copilot-Studio-Lab1/refs/heads/main/LabFiles/overview.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Safe-Travels-Agent/blob/main/LabFiles/Exercise2.md",
         "Order": 4
       }
     ]
   }
+
 ]
