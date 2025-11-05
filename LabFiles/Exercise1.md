@@ -72,14 +72,23 @@ In this task, you will create your first AI agent using the pre-built Safe Trave
       ![Safe Travels Template Selection](../media/ex1-travel-g8.png)
   
 1. Review the template details and click **Use this template** to proceed with the Safe Travels template.
+1. Review all the configuration settings and click **Create** to generate your Safe Travels agent.
 
    ![Use Template](../media/ex1-travel-g9.png)
 
    > **Template Benefits:** The Safe Travels template includes pre-configured conversational flows, travel-related knowledge sources, and common travel assistance scenarios, significantly reducing development time.
 
+1. Add knowledge to your Safe Travels Agent
+   - Click the **Overview** tab.
+   - Click **+ Add knowledge**.
+     
    ![Agent Configuration](../media/ex1-travel-g10.png)
 
-1. Review all the configuration settings and click **Create** to generate your Safe Travels agent.
+1. Upload a knowledge file
+
+   - Click **Upload file** (or **select to browse**) and choose **Travel Policy.docx**.
+   - Confirm it appears under **File name** as **Travel Policy.docx**.
+   - Click **Add to agent**.
 
    ![Create Agent](../media/ex1-travel-g11.png)
 
@@ -106,30 +115,20 @@ In this task, you'll test your Safe Travels agent to validate its functionality 
    ```
    How to apply for passport?
    ```
-
-   ![Passport Information Query](../media/ex1-travel-g15.png)
-
-   > **Expected Response:** The agent should provide comprehensive passport application information from its built-in travel knowledge base.
-
-1. Test another travel-related query to validate the agent's knowledge. Ask about travel destinations:
-
-   ```
-   Tell me about travel to New York
-   ```
-
    ![Travel Destination Query](../media/ex1-travel-g16.png)
 
-1. Continue testing with additional travel scenarios to ensure the agent responds appropriately to various travel-related questions.
-
+   > **Expected Response:** The agent should provide comprehensive passport application information from its built-in travel knowledge base.
+   
    ![Additional Travel Testing](../media/ex1-travel-g17.png)
-
-1. Test the agent's ability to handle travel policy questions:
+   
+1. Test another travel-related query to validate the agent's knowledge. Ask about travel Policy:
 
    ```
-   What should I know about business travel?
+   What is our company travel policy?
    ```
-
    ![Business Travel Query](../media/ex1-travel-g18.png)
+   
+1. Continue testing with additional travel scenarios to ensure the agent responds appropriately to various travel-related questions.
 
    > **Knowledge Integration:** The agent leverages its built-in travel knowledge to provide helpful responses across various travel scenarios.
 
@@ -139,7 +138,7 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
 
 1. After testing, click the **Publish** button in the top-right corner of the agent interface to begin the publishing process.
 
-   ![Publish Agent](../media/ex1-travel-g19.png)
+   ![Open Agent Chat](../media/ex1-travel-g27.png)
 
 1. In the publish dialog, review the publishing details and click **Publish** to confirm and publish your agent.
 
@@ -175,7 +174,7 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
 
 1. After adding the agent, click **Open** to start a conversation with your Safe Travels agent in Teams.
 
-   ![Open Agent Chat](../media/ex1-travel-g27.png)
+   ![Publish Agent](../media/ex1-travel-g19.png)
 
 1. Test the agent functionality within Teams by asking a travel-related question:
 
