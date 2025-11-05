@@ -60,7 +60,7 @@ Welcome to your Leave Management System with Microsoft Copilot Studio lab! We've
 
 Once you're ready to dive in, your virtual machine and Lab guide will be right at your fingertips within your web browser.
 
-![](../media/gs-leave-1.png)
+![](../media/gs-travel-g5.png)
 
 ### Exploring Your Lab Resources
 
