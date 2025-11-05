@@ -37,7 +37,7 @@ In this task, you will build a comprehensive travel approval workflow that integ
    - **First channel:** Type **Travel Approvals (2)** 
    - Click **Create (3)** to establish the team structure.
 
-   ![Create Team](../media/ex2-travel-g2.png)
+      ![Create Team](../media/ex2-travel-g2.png)
 
 1. In the **Add members to HR Team** window, select **Skip** to continue without adding members for this demonstration.
 
@@ -65,7 +65,7 @@ In this task, you will build a comprehensive travel approval workflow that integ
    - **Name:** Enter **Employee ID (1)**
    - Click **Add an input (2)** to create the second parameter.
 
-   ![Add Trigger](../media/ex2-travel-g8.png)
+      ![Add Trigger](../media/ex2-travel-g8.png)
 
 1. Select **Text** as the data type for the second input parameter to capture travel details.
 
@@ -98,7 +98,7 @@ In this task, you will build a comprehensive travel approval workflow that integ
    - **Channel (4):** Travel Approvals  
    - **Message (5):** `Travel request from Employee ID: [Employee ID], Purpose: [Purpose]`
 
-   ![Search Teams](../media/ex2-travel-g15.png)
+      ![Search Teams](../media/ex2-travel-g15.png)
 
    > **Teams Integration Benefits:** This configuration ensures that travel approval requests are automatically posted to the designated HR team channel, creating a centralized approval workflow with proper audit trails.
 
@@ -313,7 +313,7 @@ In this task, you will create a specialized Leave Manager agent and configure mu
    - **Instructions (3):** Track employee leaves and provide leave balance information  
    - Click **Create (4)** to generate the specialized agent.
 
-   ![](../media/ex2-travel-g69.png)
+      ![](../media/ex2-travel-g69.png)
 
    > **Agent Specialization:** Creating domain-specific agents allows for better accuracy, focused training, and more relevant responses for specific business functions.
 

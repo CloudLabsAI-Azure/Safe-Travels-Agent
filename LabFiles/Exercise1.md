@@ -54,7 +54,7 @@ In this task, you will set up the Power Platform environment that will support y
    - In the panel, expand **Supported environments** by clicking the small **chevron**.
    - Click **ODL_User <inject key="Deployment ID" enableCopy="false"></inject>'s Environment** to switch.  
 
-   ![Copilot Studio Welcome](../media/ex1-travel-g6.png)
+      ![Copilot Studio Welcome](../media/ex1-travel-g6.png)
 
 ## Task 2: Create Safe Travels Agent from Template
 
@@ -70,8 +70,7 @@ In this task, you will create your first AI agent using the pre-built Safe Trave
    - **Description:** `A travel assistant agent that helps employees with travel planning, policies, and guidance`
   
       ![Safe Travels Template Selection](../media/ex1-travel-g8.png)
-  
-1. Review the template details and click **Use this template** to proceed with the Safe Travels template.
+
 1. Review all the configuration settings and click **Create** to generate your Safe Travels agent.
 
    ![Use Template](../media/ex1-travel-g9.png)
@@ -82,7 +81,7 @@ In this task, you will create your first AI agent using the pre-built Safe Trave
    - Click the **Overview** tab.
    - Click **+ Add knowledge**.
      
-   ![Agent Configuration](../media/ex1-travel-g10.png)
+      ![Agent Configuration](../media/ex1-travel-g10.png)
 
 1. Upload a knowledge file
 
@@ -90,7 +89,7 @@ In this task, you will create your first AI agent using the pre-built Safe Trave
    - Confirm it appears under **File name** as **Travel Policy.docx**.
    - Click **Add to agent**.
 
-   ![Create Agent](../media/ex1-travel-g11.png)
+      ![Create Agent](../media/ex1-travel-g11.png)
 
 1. The system will process your agent creation. Wait for the creation process to complete.
 
@@ -121,7 +120,7 @@ In this task, you'll test your Safe Travels agent to validate its functionality 
    
    ![Additional Travel Testing](../media/ex1-travel-g17.png)
    
-1. Test another travel-related query to validate the agent's knowledge. Ask about travel Policy:
+1. Test another travel-related query to validate the agent's knowledge. Ask about travel Policy and review the output.
 
    ```
    What is our company travel policy?
@@ -160,14 +159,14 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
-   ![Microsoft Sign In](../media/ex1-travel-g24.png)
+      ![Microsoft Sign In](../media/ex1-travel-g24.png)
 
 
 1. Enter the **Temporary Access Pass (1)** and click **Sign in (2)**.
 
    - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject>
 
-   ![Open in Teams](../media/ex1-travel-g25.png)
+      ![Open in Teams](../media/ex1-travel-g25.png)
 
 1. When prompted to stay signed in, click **Yes** to continue.
 
@@ -177,7 +176,7 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
 
    ![Open Agent Chat](../media/ex1-travel-g28.png)
 
- - In the Channels interface, you'll see available deployment options. Select **Microsoft Teams** to deploy your agent to Teams.
+1. In the Channels interface, you'll see available deployment options. Select **Microsoft Teams** to deploy your agent to Teams.
 
    ![Agent Response in Teams](../media/ex1-travel-g29.png)
 
