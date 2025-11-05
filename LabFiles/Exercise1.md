@@ -146,94 +146,62 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
 
    > **Publishing Process:** The agent will be packaged and made available for channel deployment. This process may take a few moments to complete.
 
+1. Open a new browser tab and navigate to [https://teams.microsoft.com/v2/](https://teams.microsoft.com/v2/). 
+
+1. If you see a "Get to know Teams" welcome screen, click **Get Started** to proceed.
+
+   ![Configure Teams Channel](../media/ex1-travel-g22.png)
+
+1. If prompted with a Teams mobile app QR code popup, click the **X** button to close it and continue.
+
+   ![Configure Teams Channel](../media/ex1-travel-g23.png)
+
+1. If prompted to sign in, enter your **email address (1)** and click **Next (2)**.
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+   ![Microsoft Sign In](../media/ex1-travel-g24.png)
+
+
+1. Enter the **Temporary Access Pass (1)** and click **Sign in (2)**.
+
+   - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject>
+
+   ![Open in Teams](../media/ex1-travel-g25.png)
+
+1. When prompted to stay signed in, click **Yes** to continue.
+
+   ![Add Agent to Teams](../media/ex1-travel-g26.png)
+
 1. Once published successfully, navigate to the **Channels** section to configure deployment channels for your agent.
+
+   ![Open Agent Chat](../media/ex1-travel-g28.png)
+
  - In the Channels interface, you'll see available deployment options. Select **Microsoft Teams** to deploy your agent to Teams.
 
    ![Agent Response in Teams](../media/ex1-travel-g29.png)
 
    > **Channel Benefits:** Deploying to Microsoft Teams provides users access through their familiar collaboration environment, increasing adoption and usage.
 
-1. Configure the Teams channel settings and click **Save** or **Add** to add the Teams channel to your agent.
+1. If prompted to download the Teams desktop app, click **Use the web app instead** to continue using Teams in your browser.
 
-   ![Configure Teams Channel](../media/ex1-travel-g23.png)
+   ![Agent Response in Teams](../media/ex1-travel-g34.png)
 
-1. Review the channel configuration and submit for approval if required by your organization's policies.
+1. In the Safe Travels Agent dialog, review the agent information and click **Add** to install the agent in your Teams environment.
 
-   ![Channel Configuration Review](../media/ex1-travel-g24.png)
+   ![Add Agent to Teams](../media/ex1-travel-g35.png)
 
-1. Once the channel is configured, click **Open in Teams** or similar option to test the agent deployment in Microsoft Teams.
+1. After successful installation, you'll see a confirmation message. Click **Open** to start using your Safe Travels Agent immediately.
 
-   ![Open in Teams](../media/ex1-travel-g25.png)
+   ![Agent Added Successfully](../media/ex1-travel-g36.png)
 
-1. Microsoft Teams will open with your Safe Travels agent available. Click **Add** to add the agent to your Teams environment.
+1. The Safe Travels Agent chat interface will open. Type your first message in the text box (1) and click the **Send** button (2) to test the agent.
 
-   ![Add Agent to Teams](../media/ex1-travel-g26.png)
+   ![Agent Added Successfully](../media/ex1-travel-g39.png)
 
-1. After adding the agent, click **Open** to start a conversation with your Safe Travels agent in Teams.
+1. The Safe Travels Agent chat interface will open. Type your first message in the text box (1) and click the **Send** button (2) to test the agent.
 
-   ![Publish Agent](../media/ex1-travel-g19.png)
-
-1. Test the agent functionality within Teams by asking a travel-related question:
-
-   ```
-   I need help planning a business trip
-   ```
-
-   ![Test Agent in Teams](../media/ex1-travel-g28.png)
-
-1. Verify that the agent responds appropriately within the Teams environment, maintaining the same functionality as in the Copilot Studio test environment.
-
-   ![Select Teams Channel](../media/ex1-travel-g22.png)
-
-      ![Publish Confirmation](../media/ex1-travel-g20.png)
-
-   > **Integration Success:** The agent should provide consistent responses regardless of the access channel (Copilot Studio or Teams).
-
-1. Continue testing various travel scenarios to ensure full functionality in the Teams environment.
-
-   ![Additional Teams Testing](../media/ex1-travel-g30.png)
-
-1. Navigate back to Copilot Studio to review the agent deployment status and confirm successful channel configuration.
-
-   ![Review Deployment Status](../media/ex1-travel-g31.png)
-
-1. Verify that the Teams channel is active and the agent is successfully deployed.
-
-   ![Deployment Verification](../media/ex1-travel-g32.png)
-
-1. Review the agent analytics and usage metrics to understand how the agent is performing.
-
-   ![Agent Analytics](../media/ex1-travel-g33.png)
-
-1. Check the agent's conversation history and performance metrics to ensure optimal functionality.
-
-   ![Performance Metrics](../media/ex1-travel-g34.png)
-
-1. Validate that all agent features are working correctly across both Copilot Studio and Teams platforms.
-
-   ![Feature Validation](../media/ex1-travel-g35.png)
-
-1. Review the final agent configuration to ensure all settings are optimized for your organization's needs.
-
-   ![Final Configuration Review](../media/ex1-travel-g36.png)
-
-1. Confirm that the agent is ready for enterprise deployment and user access.
-
-   ![Enterprise Readiness](../media/ex1-travel-g37.png)
-
-1. Document the successful deployment and provide access instructions for end users.
-
-   ![Deployment Documentation](../media/ex1-travel-g38.png)
-
-1. Monitor the agent's initial performance and gather user feedback for potential improvements.
-
-   ![Performance Monitoring](../media/ex1-travel-g39.png)
-
-1. Complete the deployment process by confirming all systems are operational and the agent is accessible to intended users.
-
-   ![Deployment Complete](../media/ex1-travel-g40.png)
-
-   > **Deployment Success:** Your Safe Travels agent is now successfully published and available through Microsoft Teams for your organization's use.
+   ![Agent Added Successfully](../media/ex1-travel-g40.png)
 
 ## Summary
 
