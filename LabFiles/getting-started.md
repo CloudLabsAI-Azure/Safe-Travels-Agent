@@ -4,22 +4,45 @@
 
 ## Overview
 
-In this hands-on lab, you will build conversational agents using Microsoft Copilot Studio and explore multi-agent orchestration. You'll create a Safe Travels agent for travel assistance, add business process automation, and build a system where multiple agents work together.
+In this hands-on lab, you will build and configure a Safe Travels Agent using Microsoft Copilot Studio to assist employees with travel planning, policy queries, and approval workflows. The agent leverages multi-agent orchestration to seamlessly delegate specialized tasks, such as leave balance inquiries, to a dedicated Leave Manager Agent. By integrating with Microsoft Teams and Power Automate, you will create an intelligent, automated system that enhances employee experience and streamlines business processes.
 
-This lab focuses on essential skills: agent creation, Teams integration, and multi-agent orchestration. You'll build a working travel assistant agent and understand how agents can collaborate to solve business problems.
+## Objectives
 
-## Key Components
+By the end of this lab, you will be able to:
 
-- **Microsoft Copilot Studio:** Development environment for creating and managing AI agents
-- **Safe Travels Agent:** Travel assistance agent with policy integration and approval workflows
-- **Agent Flows:** Workflow automation that integrates with Teams channels
-- **Leave Manager Agent:** Specialized agent for employee leave management
-- **Multi-Agent Orchestration:** System enabling agents to collaborate and delegate tasks
-- **Microsoft Teams Integration:** Deploy agents across the Microsoft 365 ecosystem
+- **Create and Deploy Safe Travels Agent:** Build a travel assistance agent using templates, integrate knowledge sources, and deploy to Microsoft Teams.
+
+- **Implement Agent Flows for Business Automation:** Design and configure Power Automate flows that trigger travel approval processes and post notifications to Teams channels.
+
+- **Build Multi-Agent Orchestration:** Create a specialized Leave Manager Agent and enable collaboration between multiple agents for comprehensive business solutions.
+
+- **Test End-to-End Workflows:** Validate agent responses, flow executions, and cross-agent handoffs to ensure reliable operation.
+
+## Prerequisites
+
+Participants should have:
+
+- Basic Understanding of Conversational AI and Agentic AI Concepts
+- Working Knowledge of Microsoft Copilot Studio
+- Familiarity with Microsoft Teams and Power Platform
+
+## Explanation of Components
+
+- **Microsoft Copilot Studio:** Platform to build, configure, and manage conversational AI agents.
+
+- **Dataverse:** Central data store for employee information, leave balances, and travel policies.
+
+- **Power Platform Environment:** Secure workspace hosting agents, data tables, and workflows.
+
+- **Power Automate:** Workflow automation engine for travel approval processes and Teams integration.
+
+- **Microsoft Teams:** Collaboration hub where users interact with agents and receive approval notifications.
+
+- **Multi-Agent Orchestration:** Framework enabling specialized agents to work together and route requests intelligently.
 
 ## Getting Started with the Lab
 
-Welcome to your Safe Travels Agent lab! This lab will guide you through building and configuring conversational AI agents using Microsoft Copilot Studio. You'll create travel assistance agents, implement business workflows, and explore multi-agent orchestration.
+Welcome to your Build and Enhance a Safe Travels Agent with Multi-Agent Orchestration lab! We've prepared a seamless environment for you to explore and learn how to build, configure, and test intelligent travel assistance agents. This lab will guide you through creating AI agents, implementing business automation workflows, and establishing multi-agent orchestration to deliver a secure and efficient experience. Let's begin by making the most of this workshop!
 
 ### Accessing Your Lab Environment
 
