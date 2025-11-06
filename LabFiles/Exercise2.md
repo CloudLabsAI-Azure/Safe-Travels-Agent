@@ -296,6 +296,10 @@ In this task, you will create a specialized Leave Manager agent and configure mu
 
    ![](../media/ex2-travel-g71.png)
 
+1. In the file picker window, navigate to the folder **C:\datasets\Safe-Travels-Agent-Automate (1)**, select the files **Leave balance Tracker.xlsx** and **Leave Policy (2)**, and then click **Open (3)**.
+
+   ![](../media/cor-g-g5.png)
+
 1. Upload the required leave policy and tracking files, then click **Add to agent** to integrate them as authoritative knowledge sources.
 
    ![](../media/ex2-travel-g72.png)
