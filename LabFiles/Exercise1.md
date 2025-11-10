@@ -69,6 +69,18 @@ In this task, you will set up the Power Platform environment that will support y
    https://copilotstudio.microsoft.com
    ```
 
+1. On the **Welcome to Microsoft Copilot Studio** screen, keep the default **country/region** selection and click **Get Started** to continue.
+
+   ![](../media/gs-travel-g2.png)
+
+1. If the **Welcome to Copilot Studio!** pop-up appears, click **Skip** to continue to the main dashboard.
+
+   ![](../media/gs-travel-g3.png)
+
+1. If you are directly taken to the **agent creation** screen, click the **ellipsis (1)** icon beside the **Create** button, then select **Cancel agent creation (2)** to return to the main dashboard.
+
+   ![](../media/gs-travel-g4.png)
+
 1. In Copilot Studio, open the environment picker **(1)**, expand **Supported environments (2)**, and select **ODL_User <inject key="Deployment ID" enableCopy="false"></inject>'s Environment (3)** to switch.
 
    ![](../media/ex1-travel-g6.png)
