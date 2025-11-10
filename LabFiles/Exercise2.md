@@ -385,10 +385,6 @@ In this task, you will learn how the power of distributed AI systems where speci
 
    ![](../media/ex2-travel-g85.png)
 
-1. Type **1234 is my Employee ID can you check my Leave balance (1)** and click **send (2)** to validate the multi-agent orchestration functionality.
-
-   ![](../media/ex2-travel-g86.png)
-
    > **Multi-Agent Success:** The seamless handoff between your Safe Travels agent and Leave Manager agent demonstrates successful orchestration, where specialized agents collaborate to provide comprehensive business solutions.
 
 ## Summary
