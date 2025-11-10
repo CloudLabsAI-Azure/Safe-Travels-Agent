@@ -195,9 +195,13 @@ In this task, you will connect the published flow to a new topic in the Safe Tra
 
       ![](../media/cor-g-g18.png)
 
+1. In the **Power Automate inputs (2)** section, click the variable picker **(1)** next to **Employee ID (Number)**, and from the **Select a variable** panel, choose **EmployeeID (2)**.
+
+      ![](../media/cor2-gs-g8.png)
+
 1. Perform the same step and select **PurposeOfTravel** for the **Purpose (String)** field.
 
-1. Perform the same step for the **Purpose (String)** field and select **PurposeOfTravel** from the variable list.
+1. Once both variables are mapped correctly, the configuration should appear as shown in the image — **Employee ID (Number)** mapped to **EmployeeID** and **Purpose (String)** mapped to **PurposeOfTravel**.
 
    ![](../media/cor-g-g19.png)
 
