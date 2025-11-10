@@ -180,6 +180,8 @@ In this task, you will create two AI agents the **Safe Travels Agent** to assist
 
    ![](../media/cor-g-g24.png)
 
+   > **Note:** It may take 10–15 minutes for all knowledge sources to show the **Ready** status. You can proceed with the next task while the processing completes.
+
    > **Knowledge Integration:** Successfully uploaded knowledge sources enable your agent to provide accurate, policy-compliant responses based on your organization's actual leave management data.
 
 ## Task 3: Test and Validate Agent Functionality
@@ -189,6 +191,14 @@ In this task, you'll test your Safe Travels agent to validate its functionality 
 1. From the left navigation menu, click **Agents (1)**, and then select **Safe Travels Agent (2)** from the list to open it.
 
    ![](../media/ex2-travel-g111.png)
+
+1. Verify that the uploaded knowledge source shows the **Ready** status as highlighted.
+
+   ![](../media/cor-g-g24.png)
+
+   > **Note:** If the status is not yet **Ready**, you can continue with the next steps. However, the agent's responses may not reflect the latest data until the knowledge source is fully processed.
+
+   > **Note:** It is recommended that you proceed to the next tasks and perform them. Once the knowledge source is fully processed, you can return later to retest the agent for improved and accurate responses during future interactions.
 
 1. Click **Test** to open the test panel and verify your agent’s responses.
 
@@ -205,7 +215,9 @@ In this task, you'll test your Safe Travels agent to validate its functionality 
    > **Expected Response:** The agent should provide comprehensive passport application information from its built-in travel knowledge base.
    
    ![](../media/ex1-travel-g17.png)
-   
+
+   > **Note:** The output may vary if the knowledge source (Word file) is still processing. This is expected behavior. You can continue with the next task you’ll be interacting with the agent again in the upcoming tasks once the knowledge source is fully ready.
+
 1. Test another travel-related query to validate the agent's knowledge. Ask about travel Policy and review the output.
 
    ```
