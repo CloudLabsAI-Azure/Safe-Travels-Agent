@@ -206,7 +206,7 @@ In this task, you'll test your Safe Travels agent to validate its functionality 
 
 1. Verify that the uploaded knowledge source shows the **Ready** status as highlighted.
 
-   ![](../media/cor-g-g24.png)
+   ![](../media/ex1-travel-g13.png)
 
    > **Note:** If the status is not yet **Ready**, you can continue with the next steps. However, the agent's responses may not reflect the latest data until the knowledge source is fully processed.
 
