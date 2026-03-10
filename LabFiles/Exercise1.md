@@ -10,19 +10,12 @@ The Safe Travels agent will help employees with travel-related questions, policy
 
 ## Objectives
 
-You will be able to complete the following tasks:
+You will complete the following tasks:
 
 - Task 1: Set up Power Platform environment and navigate to Copilot Studio
 - Task 2: Create Safe Travels agent from template  
 - Task 3: Test and validate agent functionality
 - Task 4: Publish and deploy agent to Microsoft Teams
-
-## Prerequisites
-
-- Access to **Microsoft Copilot Studio** with agent creation permissions
-- **Microsoft Teams** access for testing deployed agents
-- **Admin tenant credentials** for publishing to enterprise channels
-- Basic understanding of conversational AI and Microsoft 365 collaboration tools
 
 ## Task 1: Set Up Power Platform Environment
 
@@ -34,7 +27,7 @@ In this task, you will set up the Power Platform environment that will support y
 
    > **Environment Foundation:** This step creates the foundational environment that will support your agents with company-specific data and knowledge sources.
 
-1. In the **Create in new environment?** dialog, click **Create** to provision a environment.
+1. In the **Create in new environment?** dialog, click **Create** to provision an environment.
 
    ![](../media/ex1-travel-g2.png)
 
@@ -52,10 +45,6 @@ In this task, you will set up the Power Platform environment that will support y
 1. Check the preview: columns **Employee ID**, **Firstname**, **Lastname**, **Leave Balance** are correct and header toggle is ON, then click **Create**.
 
    ![](../media/ex1-travel-g3.png)
-
-1. Still in Power Platform, click the **environment (1)** name in the top bar , expand **Build apps with Dataverse (2)**, and select your newly created **ODL_User (3)** to switch context to the new environment you just provisioned.
-
-   ![](../media/ex1-travel-g5.png)
 
 1. After provisioning completes, open **Tables (1)** and confirm the **Employee (2)** table is listed; note the logical **prefix (3)** which uniquely identifies the table for future automation (not used further in this lab).
 
@@ -77,43 +66,19 @@ In this task, you will set up the Power Platform environment that will support y
 
    ![](../media/gs-travel-g3.png)
 
-1. If you are directly taken to the **agent creation** screen, click the **ellipsis (1)** icon beside the **Create** button, then select **Cancel agent creation (2)** to return to the main dashboard.
-
-   ![](../media/gs-travel-g4.png)
-
 1. In Copilot Studio, open the environment picker **(1)**, expand **Supported environments (2)**, and select **ODL_User <inject key="Deployment ID" enableCopy="false"></inject>'s Environment (3)** to switch.
 
    ![](../media/ex1-travel-g6.png)
 
-1. If you are not able to see the environment under **Supported environments**, follow the below steps.
-
-   ![](../media/cor2-gs-g4.png)
-
-   1. Go back to the **Power Apps** portal, on your **ODL_User <inject key="Deployment ID" enableCopy="false"></inject>’s Environment** copy the **Environment ID** from the browser URL as highlighted.
-
-      ![](../media/cor2-gs-g5.png)
-   
-   1. Open a **new browser tab**, and paste the copied **Environment ID** at the end of the following URL to verify access:
-
-      ```
-      https://copilotstudio.microsoft.com/environments/(Environment ID)
-      ```
-
-      ![](../media/cor2-gs-g6.png)
-
-      > **Note:** Replace **(Environment ID)** with the ID you copied in the previous step.
-   
-   1. You will be navigated to the **Copilot Studio** portal. Verify that **ODL_User <inject key="Deployment ID" enableCopy="false"></inject>’s Environment** is visible and selected under **Supported environments**.
-
-      ![](../media/cor2-gs-g7.png)
+   > If you are not able to see the environment under **Supported environments**, Please refresh or login once again by logging out.
 
 ## Task 2: Create Safe Travels & Leave Manager Agents
 
 In this task, you will create two AI agents the **Safe Travels Agent** to assist with travel-related queries and the **Leave Manager Agent** to manage employee leave information and approvals. This helps you understand how to quickly build and customize multiple agents for different business scenarios.
 
-1. In Copilot Studio, click **Create (1)** and select the **Safe Travels (2)** template card.
+1. In Copilot Studio, click **Agents (1)** and select the **Safe Travels (2)** template card.
 
-   ![](../media/ex1-travel-g7.png)
+   ![](../media/sfimg1.png)
 
    > **Note:** If the template isn’t visible, use the search box.
    
@@ -135,7 +100,7 @@ In this task, you will create two AI agents the **Safe Travels Agent** to assist
 
    ![](../media/ex1-travel-g10.png)
 
-   > **Note** Adding knowledge sources improves grounded responses; keep policy files updated for accuracy.
+   > **Note:** Adding knowledge sources improves grounded responses; keep policy files updated for accuracy.
 
 1. On the **Add knowledge** screen, click **select to browse** to upload a knowledge file.  
 
@@ -149,28 +114,40 @@ In this task, you will create two AI agents the **Safe Travels Agent** to assist
 
       ![](../media/ex1-travel-g11.png)
 
-1. The system will process your agent creation. **Provisioning may take 10–15 minutes, please proceed to the next step while it completes.
+1. The system will process your agent creation. **Provisioning may take 10–15 minutes, please proceed to the next step while it completes**.
 
    ![](../media/ex1-travel-g12.png)
 
    ![](../media/ex1-travel-g13.png)
 
-1. Navigate to **Copilot Studio**, click **Agents (1)** and then select **+ New agent (2)** to create the specialized Leave Manager agent.
+1. Navigate to **Copilot Studio**, click **Agents (1)** and then select **+ Create a Blank Agent (2)** to create the specialized Leave Manager agent.
 
-   ![](../media/ex2-travel-g68.png)
+   ![](../media/sfimg2.png)
 
-1. Create the **Leave Manager Agent** as follows:  
-   - **Configure (1):** Click the **Configure** tab to set up your agent details.  
-   - **Name (2):** Enter **Leave Manager Agent**.  
-   - **Description (3):** Type `This agent is to track the leaves of all the employees, their leave balance and leave history to approve or reject any new leave requests.`  
-   - **Instructions (4):** Type `Track the leaves of employees. Track their leave balance. Apply/Reject leaves based on their balance.`  
-   - **Create (5):** Click **Create** to build the agent.  
+1. Wait till the agent provisioning completes, click on **Edit** to configure the agent details.
 
-      ![](../media/cor-g-g9.png)
+      ![](../media/sfimg3.png)
 
       > **Agent Specialization:** Creating domain-specific agents allows for better accuracy, focused training, and more relevant responses for specific business functions.
 
-1. Navigate to the **Overview (1)** tab and click **Add knowledge (2)** to include organizational data sources that will enhance your agent's leave management capabilities.
+1. On the details pane, provide the following details and click on **Save (3)** to save the configurations.
+
+   - **Name**: `Leave Manager Agent` **(1)**
+   - **Description**: `This agent is to track the leaves of all the employees, their leave balance and leave history to approve or reject any new leave requests.` **(2)**
+
+   ![](../media/sfimg4.png)
+
+1. Once saved, scroll down and click on **Edit** on **Instructions** card.
+
+   ![](../media/sfimg5.png)
+
+1. Configure the below instruction and click on **Save** once after adding.
+
+   - **Instructions**: `Track the leaves of employees. Track their leave balance. Apply/Reject leaves based on their balance.`
+
+   ![](../media/sfimg6.png)
+
+1. From the **Overview (1)** tab and click **Add knowledge (2)** to include organizational data sources that will enhance your agent's leave management capabilities.
 
    ![](../media/ex2-travel-g70.png)
 
@@ -195,6 +172,8 @@ In this task, you will create two AI agents the **Safe Travels Agent** to assist
    > **Note:** It may take 10–15 minutes for all knowledge sources to show the **Ready** status. You can proceed with the next task while the processing completes.
 
    > **Knowledge Integration:** Successfully uploaded knowledge sources enable your agent to provide accurate, policy-compliant responses based on your organization's actual leave management data.
+
+1. Please follow the same steps and upload **C:\datasets\Safe-Travels-Agent-Automate\Leave Policy** document.
 
 ## Task 3: Test and Validate Agent Functionality
 
@@ -230,7 +209,7 @@ In this task, you'll test your Safe Travels agent to validate its functionality 
 
    > **Note:** The output may vary if the knowledge source (Word file) is still processing. This is expected behavior. You can continue with the next task you’ll be interacting with the agent again in the upcoming tasks once the knowledge source is fully ready.
 
-1. Test another travel-related query to validate the agent's knowledge. Ask about travel Policy and review the output.
+1. Test another travel-related query to validate the agent's knowledge. Ask about travel policy and review the output.
 
    ```
    What is our company travel policy?
@@ -251,7 +230,7 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
 
 1. In the publish dialog, review the publishing details and click **Publish** to confirm and publish your agent.
 
-   ![](../media/ex1-travel-g27.png)
+   ![](../media/sfimg8.png)
 
    > **Publishing Process:** The agent will be packaged and made available for channel deployment. This process may take a few moments to complete.
 
@@ -299,7 +278,11 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
 
    ![](../media/ex1-travel-g30.png)
 
-1. Once the channel is added successfully, click **See agent in Teams** to open and test the agent within Microsoft Teams.
+1. Once the channel is added successfully, A dialog to publish will be shown. Please click on **Publish**.
+
+   ![](../media/sfimg8.png)
+
+1. Once published, select **See agent in Teams** option to add the agent in Teams.
 
    ![](../media/cor2-gs-g2.png)
 
@@ -327,7 +310,7 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
 
 ## Summary
 
-you've successfully:
+You've successfully:
 
 - Set up a Power Platform environment for agent development
 - Created a working Safe Travels agent using Microsoft's template

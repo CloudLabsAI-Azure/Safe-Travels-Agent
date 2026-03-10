@@ -8,7 +8,7 @@ In this hands-on lab, you will build and configure a Safe Travels Agent using Mi
 
 ## Objectives
 
-By the end of this lab, you will be able to:
+By the end of this lab, you will:
 
 - **Create and Deploy Safe Travels Agent:** Build a travel assistance agent using templates, integrate knowledge sources, and deploy to Microsoft Teams.
 
@@ -19,8 +19,6 @@ By the end of this lab, you will be able to:
 - **Test End-to-End Workflows:** Validate agent responses, flow executions, and cross-agent handoffs to ensure reliable operation.
 
 ## Prerequisites
-
-Participants should have:
 
 - Basic Understanding of Conversational AI and Agentic AI Concepts
 - Working Knowledge of Microsoft Copilot Studio
@@ -42,7 +40,7 @@ Participants should have:
 
 ## Getting Started with the Lab
 
-Welcome to your Build and Enhance a Safe Travels Agent with Multi-Agent Orchestration lab! We've prepared a seamless environment for you to explore and learn how to build, configure, and test intelligent travel assistance agents. This lab will guide you through creating AI agents, implementing business automation workflows, and establishing multi-agent orchestration to deliver a secure and efficient experience. Let's begin by making the most of this workshop!
+Welcome to your Build and Enhance a Safe Travels Agent with Multi-Agent Orchestration lab! We've prepared a seamless environment for you to explore and learn how to build, configure, and test intelligent travel assistance agents. This lab will guide you through creating AI agents, implementing business automation workflows, and establishing multi-agent orchestration to deliver a secure and efficient experience.
 
 ### Accessing Your Lab Environment
 
@@ -58,7 +56,7 @@ To get a better understanding of your Lab resources and credentials, navigate to
 
 ### Utilizing the Split Window Feature
 
-For convenience, you can open the Lab guide in a separate window by selecting the Split Window button from the Top right corner
+For convenience, you can open the Lab guide in a separate window by selecting the Split Window button from the top right corner
 
 ![](../media/gs-leave-3.png)
 
@@ -70,7 +68,7 @@ From the **Resources (1)** tab, you can easily **start, stop, restart, or connec
 
 ## Let's Get Started with Power Apps Portal
 
-1. In the JumpVM, click on **Microsoft Edge** shortcut of Microsoft Edge browser which is created on desktop.
+1. In the JumpVM, click the **Microsoft Edge** browser shortcut on the desktop.
 
    ![](../media/gs-leave-5.png)
 
@@ -110,7 +108,9 @@ From the **Resources (1)** tab, you can easily **start, stop, restart, or connec
 
 ## Support Contact
 
-The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.Learner Support Contacts:
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
 
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support

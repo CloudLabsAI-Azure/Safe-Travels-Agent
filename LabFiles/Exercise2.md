@@ -10,19 +10,12 @@ This exercise demonstrates the power of conversational AI in real business scena
 
 ## Objectives
 
-You will be able to complete the following tasks:
+You will complete the following tasks:
 
 - Task 1: Set up Teams workspace and initialize agent flow trigger
 - Task 2: Configure flow actions and Teams message posting
 - Task 3: Integrate Travel Approval flow into agent and test end-to-end
 - Task 4: Build Leave Manager agent and establish multi-agent orchestration
-
-## Prerequisites
-
-- Completed **Exercise 1** with published Safe Travels agent
-- Access to **Microsoft Teams** with team and channel creation permissions
-- Understanding of basic workflow concepts and business process automation
-- **Safe Travels agent** available in your Copilot Studio environment
 
 ## Task 1: Set Up Teams Workspace and Initialize Agent Flow Trigger
 
@@ -45,7 +38,7 @@ In this task, you will build the foundation for the travel approval workflow: cr
 
    ![Team Details](../media/ex2-travel-g3.png)
 
-1. Navigate to **Power Automate** by going to the **Flows (1)** section and click **New agent flow (2)** to create a new automated workflow.
+1. Navigate back to **Copilot Studio** and select **Flows (1)** from left menu. Click **New agent flow (2)** to create a new automated workflow.
 
    ![Skip Members](../media/ex2-travel-g4.png)
 
@@ -57,7 +50,7 @@ In this task, you will build the foundation for the travel approval workflow: cr
 
 1. Click **Add an input** under the trigger node to define the data parameters that your agent will pass to the workflow.
 
-   ![Navigate to Flows](../media/ex2-travel-g6.png)
+   ![](../media/sfimg9.png)
 
 1. Choose **Number** as the data type for the first input parameter to capture employee identification.
 
@@ -96,6 +89,10 @@ In this task, you will add Microsoft Teams actions, dynamic content, response ha
 1. Choose your **ODL_User (1)** account credentials to authenticate and establish the Microsoft Teams connection.
 
    ![Add Action](../media/ex2-travel-g14.png)
+
+1. In the next pane, please click on **Allow Access** to allow connection access to your agent.
+
+   ![](../media/sfimg10.png)
 
 1. Configure the Teams message posting action with the following parameters:  
    - **Post as (1):** Flow bot  
@@ -268,17 +265,11 @@ In this task, you will connect the published flow to a new topic in the Safe Tra
 
 In this task, you will learn how the power of distributed AI systems where specialized agents handle specific business domains while maintaining a unified user experience through intelligent routing and collaboration.
 
-1. Test the current limitation by typing **Check my leave balance (1)** and click **Send (2)** in your Safe Travels agent.
+1. Navigate to **Leave manager agent** by selecting **Agents** from left menu.
 
-   ![](../media/ex2-travel-g66.png)
+   ![](../media/sfimg11.png)
 
-1. Observe that the agent's response displays a message indicating that no leave balance information is available, demonstrating the need for a specialized agent.
-
-   ![](../media/ex2-travel-g67.png)
-
-   > **Agent Specialization:** This limitation demonstrates why multi-agent orchestration is valuable - different agents can specialize in specific business domains while working together seamlessly.
-
-1. From the **menu**, select **Topics** to create or manage conversation topics for your agent.  
+1. From the top **menu**, select **Topics** to create or manage conversation topics for your agent.  
 
    ![](../media/ex2-travel-g75.png)
 
@@ -293,9 +284,37 @@ In this task, you will learn how the power of distributed AI systems where speci
 
       ![](../media/ex2-travel-g80.png)
 
-1. Review the topic flow (1) to ensure all steps are correctly configured, then click **Save (2)** to store the changes.  
+1. Review the topic flow and select the **message** node's menu by clicking on **...** and select **Delete**.
 
-   ![](../media/ex2-travel-g89.png)
+   ![](../media/sfimg17.png)
+
+1. Once done, click on **+** to add a new node.
+
+   ![](../media/sfimg18.png)
+
+1. From the list, select **Advanced** and click on **Generative answers**.
+
+   ![](../media/sfimg19.png)
+
+1. In the Generative answers node, select **...** option.
+
+   ![](../media/sfimg21.png)
+
+1. From the variable list select **EmployeeID**.
+
+   ![](../media/sfimg20.png)
+
+1. Once done, click on **edit** to configure knowledge source.
+
+   ![](../media/sfimg22.png)
+
+1. In the side panel, toggle the **Search only selected sources** option and from the list select **Leave balance Tracker.xlsx**.
+
+   ![](../media/sfimg23.png)
+
+1. Once configured, click on **Save** from the top menu to save the topic.
+
+   ![](../media/sfimg24.png)
 
 1. After saving the topic successfully, click **Test** to open the testing pane and verify your Leave Manager Agent’s response flow.  
 
@@ -309,19 +328,17 @@ In this task, you will learn how the power of distributed AI systems where speci
 
    ![](../media/ex2-travel-g85.png)
 
-1. See how the Leave Manager responds agent displays that Employee ID 1234 (John Doe) has **2 days** leave balance remaining, demonstrating multi-agent orchestration in action where specialized agents work together seamlessly **(1)**.
+1. See how the Leave Manager agent displays that Employee ID 1234 (John Doe) has **2 days** leave balance remaining, demonstrating multi-agent orchestration in action where specialized agents work together seamlessly **(1)**.
 
-   ![](../media/ex2-travel-g91.png)
+   ![](../media/sfimg13.png)
 
 1. Click **Publish (1)** to publish the agent.
 
-   ![](../media/ex2-travel-g92.png)
-
 1. Click again on **Publish** in the dialog box.
 
-   ![](../media/ex2-travel-g93.png)
+   ![](../media/sfimg8.png)
 
-1. Once published, you can see your **Safe Travels Agent (2)** listed in the Agents page. Click on **New agent (1)** to create additional agents if needed.
+1. Once published, navigate back to **Safe Travels Agent**.
 
    ![](../media/ex2-travel-g94.png)
 
@@ -333,21 +350,17 @@ In this task, you will learn how the power of distributed AI systems where speci
 
    ![](../media/ex2-travel-g96.png)
 
-1. Next to connect our existing agent click on **Copilot Studio**.
-
-   ![](../media/ex2-travel-g97.png)
-
 1. Select the **Leave Manager Agent** from the available agents to connect.
 
    ![](../media/ex2-travel-g98.png)
 
-1. Review the agent configuration and click **Add agent** to complete the connection.
+1. Review the agent configuration and click **Add and configure** to complete the connection.
 
-   ![](../media/ex2-travel-g99.png)
+   ![](../media/sfimg14.png)
 
 1. In the **Safe Travels Agent** interface, go to the **Agents** tab and click **Settings** to configure the agent settings.
 
-   ![](../media/ex2-travel-g103.png)
+   ![](../media/sfimg15.png)
 
 1. Navigate to **Generative AI (1)** settings, ensure **Yes (2)** is selected for orchestration, and click **Save (3)**.
 
@@ -377,13 +390,11 @@ In this task, you will learn how the power of distributed AI systems where speci
 
    ![](../media/ex2-travel-g113.png)
 
-1. Click **Test** to test the agent functionality.
-
-   ![](../media/ex2-travel-g114.png)
+1. Click **Test** to test the agent functionality on **Safe Travels Agent**.
 
 1. Type **Check Leave balance (1)** and click the **send button (2)** to test the Leave Manager Agent integration.
 
-   ![](../media/ex2-travel-g84.png)
+   ![](../media/sfimg16.png)
 
 1. Enter **1234 (1)** as the Employee ID and click **send (2)**.
 
