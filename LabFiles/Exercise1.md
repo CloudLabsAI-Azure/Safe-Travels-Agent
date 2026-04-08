@@ -260,14 +260,6 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
    https://teams.microsoft.com/v2/
    ``` 
 
-1. If you see a "Get to know Teams" welcome screen, click **Get Started** to proceed.
-
-   ![](../media/ex1-travel-g22.png)
-
-1. If prompted with a Teams mobile app QR code popup, click the **X** button to close it and continue.
-
-   ![](../media/ex1-travel-g23.png)
-
 1. If prompted to sign in, enter your **email address (1)** and click **Next (2)**.
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
@@ -280,9 +272,9 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
 
       ![](../media/ex1-travel-g25.png)
 
-1. When prompted to stay signed in, click **Yes** to continue.
+1. If you see a "Get to know Teams" welcome screen, click **Get Started** to proceed.
 
-   ![](../media/ex1-travel-g26.png)
+   ![](../media/ex1-travel-g22.png)
 
 1. Once published successfully, navigate to the **Channels** section to configure deployment channels for your agent.
 
