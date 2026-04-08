@@ -21,19 +21,25 @@ You will complete the following tasks:
 
 In this task, you will set up the Power Platform environment that will support your Copilot Studio agents with the necessary data sources and knowledge files.
 
-1. Inside the **Power Apps** portal, select **Tables (1)** from the left navigation menu and click **Create with Excel or .CSV file (2)** to begin importing the lab dataset.
+1. Navigate back to the Power Apps portal, and please switch to the environment that you created earlier.
 
-   ![](../media/ex1-travel-g1.png)
+   ![](../media/papps1.png)
 
-   > **Environment Foundation:** This step creates the foundational environment that will support your agents with company-specific data and knowledge sources.
+1. Once done, select **Tables (1)** from the left menu and click on **Create with Excel or .CSV file (2)**.
 
-1. In the **Create in new environment?** dialog, click **Create** to provision an environment.
+   ![](../media/leav-man-e1-g-2.png)
 
-   ![](../media/ex1-travel-g2.png)
+   > **Note:** If prompted with a permission message stating you don’t have access, click on **Switch and create**.
 
-1. When the upload screen appears, click **Select from device**.
+   ![](../media/saf-tra-cor-v2-g1.png)
 
-   ![](../media/cor-g-g2.png)
+   > **Note:** If you are directly taken to the **Upload an Excel file** screen, click **Cancel** to return.
+
+   ![](../media/saf-tra-cor-v2-g2.png)
+
+1. In the next pane, click on **Select from device** and in the pop-up window, select files.
+
+   ![](../media/ex2img11.png)
 
 1. In the file picker dialog:
    - Navigate to **`C:\datasets\Safe-Travels-Agent-Automate`(1)**.
@@ -42,9 +48,17 @@ In this task, you will set up the Power Platform environment that will support y
 
       ![](../media/cor-g-g1.png)
 
-1. Check the preview: columns **Employee ID**, **Firstname**, **Lastname**, **Leave Balance** are correct and header toggle is ON, then click **Create**.
+1. In the **Import an Excel or .CSV file** pane, ensure the table is included, and then click **Import**.
 
-   ![](../media/ex1-travel-g3.png)
+   ![](../media/saf-tra-cor-v2-g3.png)
+
+1. On the table mapping screen, click **Save and exit**.
+
+   ![](../media/saf-tra-cor-v2-g4.png)
+
+1. In the **Done working?** dialog, click **Save and exit**.
+
+   ![](../media/saf-tra-cor-v2-g5.png)
 
 1. After provisioning completes, open **Tables (1)** and confirm the **Employee (2)** table is listed; note the logical **prefix (3)** which uniquely identifies the table for future automation (not used further in this lab).
 
@@ -92,7 +106,7 @@ In this task, you will create two AI agents the **Safe Travels Agent** to assist
 
 1. After clicking **Create**, verify the green success banner **"Your agent has been provisioned."** appears and the **Overview** tab loads.
 
-   ![](../media/ex1-travel-g9.png)
+   ![](../media/saf-tra-cor-v2-g6.png)
 
    > **Template Benefits:** Safe Travels ships with pre-configured travel flows and knowledge, reducing setup time.
 
@@ -122,7 +136,13 @@ In this task, you will create two AI agents the **Safe Travels Agent** to assist
 
 1. Navigate to **Copilot Studio**, click **Agents (1)** and then select **+ Create a Blank Agent (2)** to create the specialized Leave Manager agent.
 
-   ![](../media/sfimg2.png)
+   ![](../media/saf-tra-cor-v2-g7.png)
+
+   > **Note:** The Copilot Studio UI may change over time; if prompted for the agent name, enter the following:
+
+   > ```
+   > Leave Manager Agent
+   > ```
 
 1. Wait till the agent provisioning completes, click on **Edit** to configure the agent details.
 
@@ -135,17 +155,17 @@ In this task, you will create two AI agents the **Safe Travels Agent** to assist
    - **Name**: `Leave Manager Agent` **(1)**
    - **Description**: `This agent is to track the leaves of all the employees, their leave balance and leave history to approve or reject any new leave requests.` **(2)**
 
-   ![](../media/sfimg4.png)
+      ![](../media/saf-tra-cor-v2-g10.png)
 
 1. Once saved, scroll down and click on **Edit** on **Instructions** card.
 
-   ![](../media/sfimg5.png)
+   ![](../media/saf-tra-cor-v2-g11.png)
 
 1. Configure the below instruction and click on **Save** once after adding.
 
    - **Instructions**: `Track the leaves of employees. Track their leave balance. Apply/Reject leaves based on their balance.`
 
-   ![](../media/sfimg6.png)
+      ![](../media/saf-tra-cor-v2-g12.png)
 
 1. From the **Overview (1)** tab and click **Add knowledge (2)** to include organizational data sources that will enhance your agent's leave management capabilities.
 
@@ -161,7 +181,7 @@ In this task, you will create two AI agents the **Safe Travels Agent** to assist
 
 1. Upload the required leave policy and tracking files, then click **Add to agent** to integrate them as authoritative knowledge sources.
 
-   ![](../media/cor-g-g8.png)
+   ![](../media/saf-tra-cor-v2-g13.png)
 
 1. Verify that all uploaded knowledge sources display **Ready** status, confirming successful integration and availability for agent responses.
 
@@ -181,7 +201,7 @@ In this task, you'll test your Safe Travels agent to validate its functionality 
 
 1. From the left navigation menu, click **Agents (1)**, and then select **Safe Travels Agent (2)** from the list to open it.
 
-   ![](../media/ex2-travel-g111.png)
+   ![](../media/saf-tra-cor-v2-g14.png)
 
 1. Verify that the uploaded knowledge source shows the **Ready** status as highlighted.
 
