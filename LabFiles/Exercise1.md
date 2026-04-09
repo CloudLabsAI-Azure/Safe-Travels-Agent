@@ -12,14 +12,14 @@ The Safe Travels agent will help employees with travel-related questions, policy
 
 You will complete the following tasks:
 
-- Task 1: Set up Power Platform environment and navigate to Copilot Studio
+- Task 1: Import data tables and navigate to Copilot Studio
 - Task 2: Create Safe Travels agent from template  
 - Task 3: Test and validate agent functionality
 - Task 4: Publish and deploy agent to Microsoft Teams
 
-## Task 1: Set Up Power Platform Environment
+## Task 1: Import Data Tables and Navigate to Copilot Studio
 
-In this task, you will set up the Power Platform environment that will support your Copilot Studio agents with the necessary data sources and knowledge files.
+In this task, you will import the required data tables into your Power Platform environment and navigate to Copilot Studio to begin building your agents.
 
 1. Navigate back to the Power Apps portal, and please switch to the environment that you created earlier.
 
@@ -332,7 +332,7 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
 
 You've successfully:
 
-- Set up a Power Platform environment for agent development
+- Imported data tables and navigated to Copilot Studio
 - Created a working Safe Travels agent using Microsoft's template
 - Tested the agent's travel assistance capabilities with real queries
 - Published and deployed the agent to Microsoft Teams for your organization
