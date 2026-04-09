@@ -373,7 +373,7 @@ In this task, you will learn how the power of distributed AI systems where speci
 
 1. Once published, navigate back to **Safe Travels Agent**.
 
-   ![](../media/ex2-travel-g94.png)
+   ![](../media/saf-tra-cor-v2-g14.png)
 
 1. Click on the **+5 (1)** menu to access additional options. Select **Agents (2)** to manage your agents or access other features like Topics, Activity, Analytics, and Channels.
 
