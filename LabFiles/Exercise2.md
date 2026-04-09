@@ -27,12 +27,14 @@ In this task, you will build the foundation for the travel approval workflow: cr
 
    >**Teams Integration Foundation:** Creating a dedicated team and channel structure ensures that travel approval requests are organized and routed to the appropriate stakeholders for review and processing.
 
-1. Configure your new team with the following details:
-   - **Team name:** Enter **HR Team (1)** 
-   - **First channel:** Type **Travel Approvals (2)** 
-   - Click **Create (3)** to establish the team structure.
+1. Configure your new team with the following details, and then click **Create (3)**.
 
-      ![Create Team](../media/ex2-travel-g2.png)
+   | Key | Value |
+   |-----|-------|
+   | Team name **(1)** | `HR Team` |
+   | First channel **(2)** | `Travel Approvals` |
+
+   ![Create Team](../media/ex2-travel-g2.png)
 
 1. In the **Add members to HR Team** window, select **Skip** to continue without adding members for this demonstration.
 
@@ -40,21 +42,21 @@ In this task, you will build the foundation for the travel approval workflow: cr
 
 1. Navigate back to **Copilot Studio** and select **Flows (1)** from left menu. Click **New agent flow (2)** to create a new automated workflow.
 
-   ![Skip Members](../media/ex2-travel-g4.png)
+   ![Skip Members](../media/saf-tra-cor-v2-g16.png)
 
-1. Under **AI capabilities**, select **When an agent calls the flow** as the trigger mechanism to enable agent-initiated workflows.
+1. In the **Add a trigger** pane, search for **Skills (1)**, and then select **When an agent calls the flow (2)**.
 
-   ![Team Created](../media/ex2-travel-g5.png)
+   ![](../media/saf-tra-cor-v2-g17.png)
 
    > **Workflow Foundation:** This trigger allows your agent to initiate business processes automatically based on user conversations, creating seamless integration between conversational AI and business operations.
 
 1. Click **Add an input** under the trigger node to define the data parameters that your agent will pass to the workflow.
 
-   ![](../media/sfimg9.png)
+   ![](../media/saf-tra-cor-v2-g18.png)
 
 1. Choose **Number** as the data type for the first input parameter to capture employee identification.
 
-   ![New Agent Flow](../media/ex2-travel-g7.png)
+   ![New Agent Flow](../media/saf-tra-cor-v2-g19.png)
 
 1. Configure the first input parameter:
    - **Name:** Enter **Employee ID (1)**
@@ -76,7 +78,7 @@ In this task, you will add Microsoft Teams actions, dynamic content, response ha
 
 1. Click the **Add (1)** icon below the trigger node to insert a new action step in the workflow automation.
 
-   ![Employee ID Input](../media/ex2-travel-g11.png)
+   ![Employee ID Input](../media/saf-tra-cor-v2-g20.png)
 
 1. Search for Microsoft Teams integration by typing **Post message in a chat or channel (1)** and **select (2)** it from the available Microsoft Teams actions.
 
@@ -94,14 +96,17 @@ In this task, you will add Microsoft Teams actions, dynamic content, response ha
 
    ![](../media/sfimg10.png)
 
-1. Configure the Teams message posting action with the following parameters:  
-   - **Post as (1):** Flow bot  
-   - **Post in (2):** Channel  
-   - **Team (3):** HR Team  
-   - **Channel (4):** Travel Approvals  
-   - **Message (5):** `Travel request from Employee ID: [Employee ID], Purpose: [Purpose]`
+1. Configure the Teams message posting action with the following parameters.
 
-      ![Search Teams](../media/ex2-travel-g15.png)
+   | Key | Value |
+   |-----|-------|
+   | Post as **(1)** | Flow bot |
+   | Post in **(2)** | Channel |
+   | Team **(3)** | HR Team |
+   | Channel **(4)** | Travel Approvals |
+   | Message **(5)** | `Travel request from Employee ID: [Employee ID], Purpose: [Purpose]` |
+
+   ![Search Teams](../media/ex2-travel-g15.png)
 
    > **Teams Integration Benefits:** This configuration ensures that travel approval requests are automatically posted to the designated HR team channel, creating a centralized approval workflow with proper audit trails.
 
@@ -121,9 +126,9 @@ In this task, you will add Microsoft Teams actions, dynamic content, response ha
 
    ![Configure Teams](../media/ex2-travel-g19.png)
 
-1. In the search box, type **Respond to agent (1)** and select **Respond to the agent (2)** under the Skills section.
+1. In the **Add an action** pane, search for **Skills (1)**, and then select **Respond to the agent (2)**.
 
-   ![Message Configuration](../media/ex2-travel-g20.png)
+   ![Message Configuration](../media/saf-tra-cor-v2-g21.png)
 
 1. Click **Add an output (1)** under the **Respond to the agent** action to define the return message.
 
@@ -133,7 +138,13 @@ In this task, you will add Microsoft Teams actions, dynamic content, response ha
 
    ![Parameters Complete](../media/ex2-travel-g22.png)
 
-1. Enter **Output (1)** as the name, type **Request submitted (2)** as the value, and provide a description **Confirmation message for travel request (3)**.
+1. Enter the following details for the output configuration.
+
+   | Key | Value |
+   |-----|-------|
+   | Name **(1)** | `Output` |
+   | Value **(2)** | `Request submitted` |
+   | Description **(3)** | `Confirmation message for travel request` |
 
    ![Close Parameters](../media/ex2-travel-g23.png)
 
@@ -169,12 +180,14 @@ In this task, you will connect the published flow to a new topic in the Safe Tra
 
    ![Add to Agent](../media/ex2-travel-g31.png)
 
-1. Create the Travel Approval topic as follows:  
-   - **Name your topic (1):** Enter **Travel Approval**.  
-   - **Create a topic to... (2):** Type `This topic should get the Employee ID (Number) and Purpose of travel (Text) details from the user and invoke the Tool "Request Travel Approval Flow"`.  
-   - **Create (3):** Click **Create** to generate the topic.  
+1. Create the Travel Approval topic with the following details, and then click **Create (3)**.
 
-      ![](../media/cor-g-g12.png)
+   | Key | Value |
+   |-----|-------|
+   | Name your topic **(1)** | `Travel Approval` |
+   | Create a topic to... **(2)** | `This topic should get the Employee ID (Number) and Purpose of travel (Text) details from the user and invoke the Tool "Request Travel Approval Flow"` |
+
+   ![](../media/cor-g-g12.png)
 
 1. Delete the existing message node as follows:  
    - **More options (1):** Click the **ellipsis (…)** icon on the Message node.  
@@ -220,25 +233,35 @@ In this task, you will connect the published flow to a new topic in the Safe Tra
 
 1. Navigate to the **Overview (1)** tab and click **Publish (2)** to make the agent updates live.  
 
-   ![Teams Notification](../media/ex2-travel-g57.png)
-
 1. In the **Publish this agent** dialog box, click **Publish** to confirm and deploy the agent.  
 
-   ![Teams Notification](../media/ex2-travel-g58.png)
+   ![Teams Notification](../media/saf-tra-cor-v2-g22.png)
 
 1. Once the agent is successfully published, click **Test** to verify and interact with your Copilot agent.  
 
    ![Teams Notification](../media/ex2-travel-g59.png)
 
-1. In the **Test your agent** panel, type **I need travel approval (1)** and click the **Send (2)** icon to initiate the travel approval request flow.  
+1. In the test chat, enter the following **prompt (1)** and then select **Send (2)**.
+
+   ```
+   I need travel approval
+   ```
 
    ![](../media/cor-g-g23.png)
 
-1. When prompted with **What is your Employee ID?**, enter **117 (1)** and click the **Send (2)** icon to submit your response.   
+1. When prompted with **What is your Employee ID?**, enter the following **response (1)** and then select **Send (2)**.
+
+   ```
+   117
+   ```
 
    ![](../media/ex2-travel-g61.png)
 
-1. When asked **What is the purpose of your travel?**, enter **Client meeting (1)** and click the **Send (2)** icon to continue the process.  
+1. When asked **What is the purpose of your travel?**, enter the following **response (1)** and then select **Send (2)**.
+
+   ```
+   Client meeting
+   ```
 
    ![](../media/ex2-travel-g62.png)
 
@@ -277,12 +300,14 @@ In this task, you will learn how the power of distributed AI systems where speci
 
    ![](../media/ex2-travel-g76.png)
 
-1. Create the **Leave Balance Checker** topic as follows:  
-   - **Name your topic (1):** Enter **Leave Balance Checker**.  
-   - **Create a topic to... (2):** Type `Get the Employee ID from the user and check and reply with the leave balance based on the tracker added as knowledge source.`  
-   - **Create (3):** Click **Create** to generate the topic automatically.   
+1. Create the **Leave Balance Checker** topic with the following details, and then click **Create (3)**.
 
-      ![](../media/ex2-travel-g80.png)
+   | Key | Value |
+   |-----|-------|
+   | Name your topic **(1)** | `Leave Balance Checker` |
+   | Create a topic to... **(2)** | `Get the Employee ID from the user and check and reply with the leave balance based on the tracker added as knowledge source.` |
+
+   ![](../media/ex2-travel-g80.png)
 
 1. Review the topic flow and select the **message** node's menu by clicking on **...** and select **Delete**.
 
@@ -320,11 +345,19 @@ In this task, you will learn how the power of distributed AI systems where speci
 
    ![](../media/ex2-travel-g90.png)
 
-1. In the **Test your agent** pane, type **Check Leave balance (1)** in the chat box and click the **Send (2)** icon to trigger the Leave Balance Checker topic.  
+1. In the test chat, enter the following **prompt (1)** and then select **Send (2)**.
+
+   ```
+   Check Leave balance
+   ```
 
    ![](../media/ex2-travel-g84.png)
 
-1. When prompted, enter your **Employee ID (1)** in the chat box and click the **Send (2)** icon to continue the conversation flow.  
+1. When prompted, enter the following **Employee ID (1)** and then select **Send (2)**.
+
+   ```
+   1234
+   ```
 
    ![](../media/ex2-travel-g85.png)
 
@@ -340,7 +373,7 @@ In this task, you will learn how the power of distributed AI systems where speci
 
 1. Once published, navigate back to **Safe Travels Agent**.
 
-   ![](../media/ex2-travel-g94.png)
+   ![](../media/saf-tra-cor-v2-g14.png)
 
 1. Click on the **+5 (1)** menu to access additional options. Select **Agents (2)** to manage your agents or access other features like Topics, Activity, Analytics, and Channels.
 
@@ -392,11 +425,19 @@ In this task, you will learn how the power of distributed AI systems where speci
 
 1. Click **Test** to test the agent functionality on **Safe Travels Agent**.
 
-1. Type **Check Leave balance (1)** and click the **send button (2)** to test the Leave Manager Agent integration.
+1. In the test chat, enter the following **prompt (1)** and then select **Send (2)**.
+
+   ```
+   Check Leave balance
+   ```
 
    ![](../media/sfimg16.png)
 
-1. Enter **1234 (1)** as the Employee ID and click **send (2)**.
+1. When prompted, enter the following **Employee ID (1)** and then select **Send (2)**.
+
+   ```
+   1234
+   ```
 
    ![](../media/ex2-travel-g85.png)
 
